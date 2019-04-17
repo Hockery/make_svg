@@ -1,0 +1,25 @@
+{
+    "name": "editsvg",
+    "version": "1.0.0",
+    "description": "make svg by js",
+    "license": "None",
+    "author": {
+        "name": "hocker",
+        "url": "https://github.com/Hockery"
+    },
+    "repository": {
+        "url": "https://github.com/Hockery",
+        "type": "git"
+    },
+    "bugs": {
+        "url": "https://github.com/Hockery"
+    },
+    "scripts": {
+        "dev": "nw src/",
+        "prod": "nwbuild --platforms win32,win64,osx64,linux32,linux64 --buildDir dist/ src/"
+    },
+    "devDependencies": {
+        "nw": "^0.18.3",
+        "nw-builder": "^3.1.2"
+    }
+}

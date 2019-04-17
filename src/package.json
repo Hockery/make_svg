@@ -1,0 +1,29 @@
+{
+    "name": "editsvg",
+    "version": "1.0.0",
+    "description": "make and view svg",
+    "main": "index.html",
+    "window": {
+        "min_width": 400,
+        "min_height": 420,
+        "icon": "res/s1"
+    },
+    "maintainers": [{
+        "name": "hocker",
+        "web": "https://github.com/Hockery"
+    }],
+    "bugs": "https://github.com/Hockery",
+    "licenses": [{
+        "type": "None",
+        "url": "https://github.com/Hockery"
+    }],
+    "repositories": [{
+        "type": "git",
+        "url": "https://github.com/Hockery",
+        "path": "src/"
+    }],
+    "dependencies": {
+        "bootstrap": "^4.0.0-alpha.5",
+        "font-awesome": "^4.7.0"
+    }
+}
